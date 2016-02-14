@@ -1,0 +1,17 @@
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\RoboServer.exe.config
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.csprojResolveAssemblyReference.cache
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.Properties.Resources.resources
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.csproj.GenerateResource.Cache
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\RoboServer.exe
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\RoboServer.pdb
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\EngineIoClientDotNet.dll
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\SocketIoClientDotNet.dll
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\WebSocket4Net.dll
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.exe
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.pdb
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.MainForm.resources
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\Interop.NATUPNPLib.dll
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\obj\Debug\RoboServer.csproj.ResolveComReference.cache
+C:\Users\Pimka\Desktop\RoboServer\RoboServer\bin\Debug\Fleck.dll
