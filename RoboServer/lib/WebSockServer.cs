@@ -9,6 +9,10 @@ using Newtonsoft.Json.Linq;
 
 namespace RoboServer.lib
 {
+
+    // ========================================================================================
+    //              Socket server. Нужен для подключение c# клиента.
+    // ========================================================================================
     class WebSockServer
     {
         private WebSocketServer server;
@@ -59,9 +63,6 @@ namespace RoboServer.lib
                 socket.OnMessage = message =>
                 {
                     form.Invoke(new Action(() => form.appendWebSockLogBox("\nMessage: " + message + "\n")));
-                   // socket.Send("Response: OK!");
-
-                    sockServer.SendToAll("OOOOK");
 
                     parseMessage(message, socket);
                    // allSockets.ToList().ForEach(s => s.Send("Echo: " + message));
@@ -116,7 +117,7 @@ namespace RoboServer.lib
             int ind = connections.FindIndex(item => item.clientWebSock == socket);
 
            // if(command == "goForward" || command == "goLeft" || command == "goRight" || command == "goDown" ||)
-            sockServer.sendToID(connections[ind].userID, int.Parse(arrMess[1]), arrMess[2]);
+            sockServer.sendToID(connections[ind].userID, int.Parse(arrMess[1]), int.Parse(arrMess[2]), arrMess[3]);
         }
     }
 }

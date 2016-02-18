@@ -48,10 +48,10 @@
             // logWebSocketText
             // 
             this.logWebSocketText.BackColor = System.Drawing.SystemColors.Window;
-            this.logWebSocketText.Enabled = false;
             this.logWebSocketText.Location = new System.Drawing.Point(344, 1);
             this.logWebSocketText.Multiline = true;
             this.logWebSocketText.Name = "logWebSocketText";
+            this.logWebSocketText.ReadOnly = true;
             this.logWebSocketText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.logWebSocketText.Size = new System.Drawing.Size(564, 270);
             this.logWebSocketText.TabIndex = 1;
@@ -108,10 +108,10 @@
             // logSocketText
             // 
             this.logSocketText.BackColor = System.Drawing.SystemColors.Window;
-            this.logSocketText.Enabled = false;
             this.logSocketText.Location = new System.Drawing.Point(344, 294);
             this.logSocketText.Multiline = true;
             this.logSocketText.Name = "logSocketText";
+            this.logSocketText.ReadOnly = true;
             this.logSocketText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.logSocketText.Size = new System.Drawing.Size(564, 270);
             this.logSocketText.TabIndex = 6;
